@@ -31,15 +31,46 @@
           <div class="col-6 col-lg-4 site-logo" data-aos="fade"><img src="images/logocosynew.png" width=40% alt="logocosynew.png"></div>
           <div class="col-6 col-lg-8 ">
             <ul class="nav justify-content-end">
-              <li class="nav-item"><a class="nav-link" href="rooms.html">Pods</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">A propos</a></li>
-              <li class="nav-item"><a class="nav-link" href="events.html">Evenement</a></li>
-              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-              <li class="nav-item"><a class="nav-link" href="reservation.html">Reservation</a></li>
+              <li class="nav-item"><a class="nav-link" href="events.html">Pods</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Reservation</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Inscription</a></li>
+              <li class="nav-item"><a class="nav-link" href="reservation.html">Connexion</a></li>
             </ul>
           </div>
         </div>
       </div>
+       <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Connectez-vous</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Mot de passe</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Se rappeler de moi</label>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-success btn-block">Se connecter</button>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
     </header>
     <!-- END head -->
 
@@ -70,14 +101,14 @@
             <form action="#">
               <div class="row">
                 <div class="col-md-6 mb-3 mb-lg-0 col-lg-3">
-                  <label for="checkin_date" class="font-weight-bold text-black">Départ</label>
+                  <label for="checkin_date" class="font-weight-bold text-black">Arrivée</label>
                   <div class="field-icon-wrap">
                     <div class="icon"><span class="icon-calendar"></span></div>
                     <input type="text" id="checkin_date" class="form-control">
                   </div>
                 </div>
                 <div class="col-md-6 mb-3 mb-lg-0 col-lg-3">
-                  <label for="checkout_date" class="font-weight-bold text-black">Arrivé</label>
+                  <label for="checkout_date" class="font-weight-bold text-black">Départ</label>
                   <div class="field-icon-wrap">
                     <div class="icon"><span class="icon-calendar"></span></div>
                     <input type="text" id="checkout_date" class="form-control">

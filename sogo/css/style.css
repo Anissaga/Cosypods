@@ -61,6 +61,14 @@ h2 {
       border: 2px solid transparent;
       background: #AA935E;
       color: #fff; }
+
+.btn.btn-section2 {
+    border: 2px solid #fff; }
+    .btn.btn-outline-white-primary:hover {
+      border: 2px solid transparent;
+      background: #AA935E;
+      color: #AA935E; }
+
   .btn.uppercase {
     text-transform: uppercase;
     font-size: 14px;

@@ -62,13 +62,6 @@ h2 {
       background: #AA935E;
       color: #fff; }
 
-.btn-section2 {
-    border: 2px solid #fff; }
-    .btn.btn-section2: hover {
-      border: 2px solid transparent  ;
-      background: #fff;
-      color: #AA935E; }
-
   .btn.uppercase {
     text-transform: uppercase;
     font-size: 14px;

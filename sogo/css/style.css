@@ -1272,3 +1272,4 @@ textarea.form-control {
 a:hover {
   text-decoration: none !important;
 }
+.img-fluid-fixed-height { height: 200px} 

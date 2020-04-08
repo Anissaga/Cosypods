@@ -9,7 +9,7 @@ body {
 
 ::-moz-selection {
   color: #fff;
-  background: #ffba5a; }
+  background: #AA935E; }
 
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -48,7 +48,7 @@ h2 {
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 0px; }
+  border-radius: 10px; }
   .btn.btn-outline-white {
     border: 2px solid #fff; }
     .btn.btn-outline-white:hover {
@@ -88,7 +88,7 @@ hover { border: 2px solid transparent;
   height: 50px;
   border-width: 2px; }
   .form-control:active, .form-control:focus {
-    border-color: #AA; }
+    border-color: #AA935E; }
 
 textarea.form-control {
   height: inherit; }
@@ -624,7 +624,7 @@ textarea.form-control {
     padding: 10px;
     font-size: 30px;
     background: #ccc;
-    line-height: 0;
+    line-height: 10;
     width: 60px;
     text-align: center;
     display: inline-block; }

@@ -9,7 +9,7 @@ body {
 
 ::-moz-selection {
   color: #fff;
-  background: #ffba5a; }
+  background: #AA935E; }
 
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -17,9 +17,18 @@ body {
   text-decoration: none; }
   a:hover {
     text-decoration: none; }
+.span {
+    color: #AA935E
+} 
+.btn btn-outline-warning {
+    color : #AA935E
+}
 
-h1, h2, h3, h4, h5 {
+h1, h3, h4, h5 {
   color: #000;
+  font-family: "Playfair Display", times, serif; }
+h2 {
+  color: #21345E;
   font-family: "Playfair Display", times, serif; }
 
 .font-family-serif {
@@ -39,19 +48,28 @@ h1, h2, h3, h4, h5 {
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 50px; }
+  border-radius: 10px; }
   .btn.btn-outline-white {
     border: 2px solid #fff; }
     .btn.btn-outline-white:hover {
       border: 2px solid transparent;
       background: #000;
       color: #fff; }
+
   .btn.btn-outline-white-primary {
     border: 2px solid #fff; }
     .btn.btn-outline-white-primary:hover {
       border: 2px solid transparent;
-      background: #ffba5a;
+      background: #AA935E;
       color: #fff; }
+
+  .btn btn-primary text-white py-2 mr-3 {
+    border: 2px solid #fff; }
+    .btn btn-primary text-white py-2 mr-3:
+hover { border: 2px solid transparent;
+      background: #AA935E;
+      color: #AA935E; }
+
   .btn.uppercase {
     text-transform: uppercase;
     font-size: 14px;
@@ -70,7 +88,7 @@ h1, h2, h3, h4, h5 {
   height: 50px;
   border-width: 2px; }
   .form-control:active, .form-control:focus {
-    border-color: #ffba5a; }
+    border-color: #AA935E; }
 
 textarea.form-control {
   height: inherit; }
@@ -148,7 +166,7 @@ textarea.form-control {
         .site-navbar nav .menu li a:hover:before {
           width: 100%; }
       .site-navbar nav .menu li.active a {
-        color: #ffba5a; }
+        color: #AA935E; }
         .site-navbar nav .menu li.active a:before {
           width: 100%; }
   .site-navbar .extra-info a {
@@ -606,7 +624,7 @@ textarea.form-control {
     padding: 10px;
     font-size: 30px;
     background: #ccc;
-    line-height: 0;
+    line-height: 10;
     width: 60px;
     text-align: center;
     display: inline-block; }
@@ -1264,3 +1282,9 @@ textarea.form-control {
         background: #ffba5a;
         color: #fff;
         border-radius: 50%; }
+
+
+a:hover {
+  text-decoration: none !important;
+}
+.img-fluid-fixed-height { height: 250px} 

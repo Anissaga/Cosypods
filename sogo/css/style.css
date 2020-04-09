@@ -57,7 +57,7 @@ h2 {
       color: #fff; }
 
   .btn.btn-outline-white-primary {
-    border: 2px solid #AA935E; }
+    border: 2px solid #fff; }
     .btn.btn-outline-white-primary:hover {
       border: 2px solid transparent;
       background: #AA935E;
@@ -88,7 +88,7 @@ hover { border: 2px solid transparent;
   height: 50px;
   border-width: 2px; }
   .form-control:active, .form-control:focus {
-    border-color: #AA935E; }
+    border-color: #fff; }
 
 textarea.form-control {
   height: inherit; }
@@ -153,7 +153,7 @@ textarea.form-control {
   border: 20px solid transparent;
   background: #fff;
   min-height: 300px;
-  overflow-y: visible; }
+  overflow-y: scroll; }
   .site-navbar nav {
     text-align: left; }
     .site-navbar nav .menu {

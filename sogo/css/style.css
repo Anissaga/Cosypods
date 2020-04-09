@@ -28,7 +28,7 @@ h1, h3, h4, h5 {
   color: #000;
   font-family: "Playfair Display", times, serif; }
 h2 {
-  color: #21345E;
+  color: #807A6C;
   font-family: "Playfair Display", times, serif; }
 
 .font-family-serif {
@@ -50,7 +50,7 @@ h2 {
   padding-bottom: 10px;
   border-radius: 10px; }
   .btn.btn-outline-white {
-    border: 2px solid #fff; }
+    border: 2px solid #AA935E; }
     .btn.btn-outline-white:hover {
       border: 2px solid transparent;
       background: #000;
@@ -88,7 +88,7 @@ hover { border: 2px solid transparent;
   height: 50px;
   border-width: 2px; }
   .form-control:active, .form-control:focus {
-    border-color: #AA935E; }
+    border-color: #fff; }
 
 textarea.form-control {
   height: inherit; }
@@ -174,7 +174,7 @@ textarea.form-control {
   .site-navbar .extra-info ul li a {
     color: #000; }
   .site-navbar .extra-info h3 {
-    font-family: "Roboto", arial, sans-serif;
+    font-family: "Helvetica", arial, sans-serif;
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: .2em;
